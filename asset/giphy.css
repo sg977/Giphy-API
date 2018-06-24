@@ -21,20 +21,25 @@ header {
 
 #button-group button {
     padding: 20px; 
-    margin-right: 20px; 
+    margin-right: 30px; 
+}
+
+#button-group {
+    padding-left: 30px; 
 }
 
 
 .wrapper {
-    padding-right: 15%; 
-    padding-left: 15%; 
+    padding-right: 25%; 
+    padding-left: 25%; 
     
 }
 
-.wrapper img {
+.gif-display {
     
-    display: inline-block; 
-    width: 40%;
-    height: 10%; 
-    margin: 0 10px; 
+    float: right; 
+    margin: 0 0 15px 15px; 
+    max-width: 98%;
+    height: auto;  
+    margin: 5%; 
 }

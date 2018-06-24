@@ -22,7 +22,7 @@ function display() {
 
         for (var i=0; i<10; i++) {
 
-            var animalDiv = $("<div>");
+            var animalDiv = $("<div class=gif-display>");
 
             var p = $("<p>").text("Rating: " + results[i].rating);
 
@@ -33,10 +33,11 @@ function display() {
             animalImag.attr("data-animate", results[i].images.fixed_height_still.url);
             animalImag.attr("data-state", "animate");
             
+    
             animalDiv.append(p);
             animalDiv.append(animalImag);
-
-
+            
+            //p.append(animalImag); 
             $('#content').prepend(animalDiv); 
 
         }
