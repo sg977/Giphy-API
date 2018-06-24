@@ -1,0 +1,40 @@
+body {
+    bacground: grey;
+
+}
+
+header {
+    
+    padding: 100px; 
+    background: lightblue; 
+    margin: auto; 
+    text-align: middle; 
+}
+
+#search {
+    float: right; 
+    margin-right: 200px; 
+    font-weight: bold; 
+    color: white; 
+    font-size: 20px; 
+}
+
+#button-group button {
+    padding: 20px; 
+    margin-right: 20px; 
+}
+
+
+.wrapper {
+    padding-right: 15%; 
+    padding-left: 15%; 
+    
+}
+
+.wrapper img {
+    
+    display: inline-block; 
+    width: 40%;
+    height: 10%; 
+    margin: 0 10px; 
+}
